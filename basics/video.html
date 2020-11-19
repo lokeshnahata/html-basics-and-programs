@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2>An inline video</h2>
+	<video src="C:\Users\LENOVO\Pictures\videos\86d3729a098548f0bf18a2c211571dc9.mp4" width="640" height="480"
+	poster="C:\Users\LENOVO\Pictures\2018-10-22\100.jpg" controls autoplay>
+		
+	</video>
+	<h2>An inline audio</h2>
+	<audio id="whithatJr." controls preload="auto">
+		<source src="C:\Users\LENOVO\Music\Yaara Teri Yaari(PaglaSongs)-[AudioTrimmer.com].mp3" type="audio/mp3">
+	</audio>
+
+	<h2>Canvas image</h2>
+	<canvas width="300" height="300" id="my_canvas">
+		an alternative text describing what your canvas displays
+	</canvas>
+	<script type="text/javascript">
+		const canvas = document.querySelector('canvas');
+		const ctx = canvas.getContext('2d');
+		ctx.fillStyle = 'green';
+		ctx.fillRect(10,10,200,100);
+	</script>
+
+</body>
+</html>
